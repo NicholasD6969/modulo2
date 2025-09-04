@@ -1,0 +1,80 @@
+/* src\components\AdicionarAluno\styles.css */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f4f6fb;
+    margin: 0;
+    padding: 0;
+}
+
+.adicionar-aluno-container {
+    background: #fff;
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 32px 24px;
+    border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+}
+
+.adicionar-aluno-title {
+    font-size: 2rem;
+    color: #2d3a4b;
+    margin-bottom: 24px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.adicionar-aluno-form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.adicionar-aluno-label {
+    font-size: 1rem;
+    color: #4b5c6b;
+    margin-bottom: 6px;
+}
+
+.adicionar-aluno-input {
+    padding: 10px 12px;
+    border: 1px solid #dbe2ea;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: border 0.2s;
+}
+
+.adicionar-aluno-input:focus {
+    border-color: #5b8def;
+    outline: none;
+}
+
+.adicionar-aluno-button {
+    background: linear-gradient(90deg, #5b8def 0%, #4f6bed 100%);
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+    margin-top: 10px;
+}
+
+.adicionar-aluno-button:hover {
+    background: linear-gradient(90deg, #4f6bed 0%, #5b8def 100%);
+}
+
+.adicionar-aluno-success {
+    color: #2ecc71;
+    text-align: center;
+    margin-top: 16px;
+    font-weight: 500;
+}
+
+.adicionar-aluno-error {
+    color: #e74c3c;
+    text-align: center;
+    margin-top: 16px;
+    font-weight: 500;
+}
